@@ -65,7 +65,7 @@ public class Apuesta {
             throw new Exception("No se puede apostar mas de lo que tienes");
         }
         {
-            setDinero_disp(dinero - getDinero_disp());
+            setDinero_disp(getDinero_disp()-dinero); // el calculo del dinero es erroneo, se ha corregido
             setApostado(dinero);
         }
     }
