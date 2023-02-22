@@ -12,7 +12,7 @@ public class Apuestas {
         int mi_dinero;
 
         laApuesta = new Apuesta(1000, 4, 2);
-        operativa_Apuesta(laApuesta, null);
+        operativa_Apuesta(laApuesta, 0);
         mi_dinero = laApuesta.getDinero_disp();
         System.out.println("El dinero que tengo tras las apuestas es " + mi_dinero);
     }
